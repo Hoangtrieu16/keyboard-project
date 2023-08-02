@@ -1,0 +1,24 @@
+.pagination{
+    margin-top: 2rem;
+}
+
+.pagination a {
+    color: black;
+    float: left;
+    padding: 8px 16px;
+    text-decoration: none;
+    transition: background-color .3s;
+    border-radius: 5px;
+  }
+ 
+ 
+  .pagination a.active {
+    background-color: #211D70;
+    color: white;
+  }
+  
+
+  .pagination a:hover:not(.active) {
+    background-color: #211d7038;
+    color: white;
+}
