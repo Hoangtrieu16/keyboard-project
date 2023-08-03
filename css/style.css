@@ -141,13 +141,21 @@ header input[type=text]:focus {
     display: none;
 }
 
+.home{
+    position: relative;
+}
+
+/* .background{
+    position: absolute;
+} */
+
 .container-1{
     position: relative;
     width: 100%;
     min-height: 640px;
     align-items: center;
     display: flex;
-    background: url(/images/bg.jpg);
+    background: url(../images/bg.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -160,7 +168,7 @@ header input[type=text]:focus {
     min-height: 640px;
     align-items: center;
     display: flex;
-    background: url(/images/bg2.jpg);
+    background: url(../images/bg2.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -173,7 +181,7 @@ header input[type=text]:focus {
     min-height: 640px;
     align-items: center;
     display: flex;
-    background: url(/images/bg3.jpg);
+    background: url(../images/bg3.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -410,10 +418,21 @@ header input[type=text]:focus {
     display: table;
     clear: both;
 }
+
+.row-column{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    gap: 10px;
+}
   
 .column {
     float: left;
     width: 50%;
+}
+
+.column-inside {
+    float: left;
+    width: 100%;
 }
   
   /* The Modal (background) */
@@ -657,9 +676,11 @@ header input[type=text]:focus {
 }
 
 .customers h2{
+    text-transform: uppercase;
     text-align:center;
     font-size: 1.6rem;
     font-weight: 600;
+    color: var(--green-color);
 }
 
 .customers-container{
@@ -849,6 +870,10 @@ header input[type=text]:focus {
         display: initial;
     }
 
+    .close{
+        top: 50px;
+    }
+
     .navbar{
         position: absolute;
         top: -570px;
@@ -864,7 +889,7 @@ header input[type=text]:focus {
     
     .navbar a{
         padding: 1rem;
-        margin: 1rem;
+        margin: 0.3rem;
         display: block;
     }
     
