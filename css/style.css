@@ -45,7 +45,7 @@
 }
 
 section{
-    padding: 4rem 0 1.5rem;
+    padding: 3rem 0 1.5rem;
 }
 
 .tag {
@@ -260,7 +260,7 @@ header input[type=text]:focus {
 }
 
 .btn{
-    display: block;
+    /* display: block; */
     padding: 0.6rem 1rem;
     background: var(--green-color);
     color: var(--bg-color);
@@ -268,11 +268,13 @@ header input[type=text]:focus {
     border-radius: 0.5rem;
     display: inline-flex;
     align-items: center;
-    justify-content: space-between;
+    /* justify-content: space-between; */
     column-gap: 00.5rem;
     max-width: 160px;
     justify-content: center;
 }
+
+
 
 .btn .bx{
     padding: 4px;
@@ -370,6 +372,7 @@ header input[type=text]:focus {
     font-size: 0.8rem;
     font-weight: 400;
     margin-bottom: 1rem;
+    text-align: center;
 }
 
 .categories-container .box .bx{
@@ -379,7 +382,7 @@ header input[type=text]:focus {
     border-radius: 0.5rem;
     position: absolute;
     bottom: -8%;
-    display: none;
+    /* display: none; */
     transition: 0.2s ease-in; 
 }
 
@@ -498,7 +501,7 @@ header input[type=text]:focus {
     margin: 20px auto;
     padding: 0;
     width: 90%;
-    max-width: 1140px;
+    max-width: 915px;
 }
   
   /* The Close Button */
@@ -579,11 +582,13 @@ header input[type=text]:focus {
 }
   
 img.hover-shadow {
-    transition: 0.3s;
+    transition: 0.5s;
+   
 }
   
 .hover-shadow:hover {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    /* transform: scale(1.1); */
 }
 
 .products{
@@ -693,6 +698,10 @@ img.hover-shadow {
     text-transform: uppercase;
 }
 
+.about-text{
+    text-align: center;
+}
+
 .about-text span{
     font-size: 32px;
     font-weight: 600;
@@ -702,6 +711,10 @@ img.hover-shadow {
 .about-text p{
     margin: 0.5rem 0 1rem;
 }
+
+/* .about-text .right{
+    float: right;
+} */
 
 .customers{
     max-width: 1140px;
