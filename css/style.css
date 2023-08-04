@@ -35,7 +35,7 @@
 /*Custom scroll bar */
 ::-webkit-scrollbar{
     width: 0.5rem;
-    background: var(--light-green-color);
+    background: var(--blur-border);
 }
 
 ::-webkit-scrollbar-thumb{
@@ -410,9 +410,9 @@ header input[type=text]:focus {
 
 .box{
     flex: 1;
-    border: 1px solid var(--blur-border);
+    /* border: 1px solid var(--blur-border); */
     border-radius: 0.3rem;
-    box-shadow: 1px 2px 11px 4px rgb(14 55 54 / 15%);
+    /* box-shadow: 1px 2px 11px 4px rgb(14 55 54 / 15%); */
 }
 
 /* .box-1{
@@ -436,7 +436,7 @@ header input[type=text]:focus {
 } */
 
 .lightbox{
-    max-width: 1140px;
+    max-width: 1000px;
     margin-left: auto;
     margin-right: auto; 
 }
@@ -447,7 +447,6 @@ header input[type=text]:focus {
     text-align: center;
     margin: 32px;
     text-transform: uppercase;
-
 }
 
 .row{
@@ -808,7 +807,7 @@ img.hover-shadow {
 }
 
 .subscribe{
-    max-width: 1140px;
+    max-width: 700px;
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 50px;
@@ -967,7 +966,7 @@ input[type=submit]:hover {
     }
 
     section{
-        padding: 50px 4%;
+        padding: 25px 4%;
     }
 
     .home-text{
@@ -1074,6 +1073,10 @@ input[type=submit]:hover {
 
     .customers h2{
         font-size: 1.2rem;
+    }
+
+    .categories-container .box img{
+        height: 230px;
     }
 }
 

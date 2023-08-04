@@ -1,12 +1,24 @@
 // Swiper
 var swiper = new Swiper(".home", {
-    spaceBetween: 30,
-    centeredSlides: true,
-    navigation: {
-      nextEl: ".swiper-button-next",
-      prevEl: ".swiper-button-prev",
-    },
-  });
+  fadeEffect: { crossFade: true },
+  spaceBetween: 30,
+  centeredSlides: true,
+  autoplay: {
+    delay: 4000,
+    disableOnInteraction: false,
+    autoplayDisableOnInteraction: true,
+    slidersPerView: 1,
+    effect: "FadeIn"
+  },
+  pagination: {
+    el: ".swiper-pagination",
+    clickable: true,
+  },
+  navigation: {
+    nextEl: ".swiper-button-next",
+    prevEl: ".swiper-button-prev",
+  },
+});
   
 let menu = document.querySelector('#menu-icon');
 let navbar = document.querySelector('.navbar');
