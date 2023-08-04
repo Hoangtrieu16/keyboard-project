@@ -1,6 +1,5 @@
 // Swiper
 var swiper = new Swiper(".home", {
-  fadeEffect: { crossFade: true },
   spaceBetween: 30,
   centeredSlides: true,
   autoplay: {
