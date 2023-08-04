@@ -59,6 +59,23 @@ function showSlides(n) {
   captionText.innerHTML = dots[slideIndex-1].alt;
 }
 
+//Slide automation
+// let index = 0;
+// displayImages();
+// function displayImages() {
+//   let i;
+//   const images = document.getElementsByClassName("swiper-slide");
+//   for (i = 0; i < images.length; i++) {
+//     images[i].style.display = "none";
+//   }
+//   index++;
+//   if (index > images.length) {
+//     index = 1;
+//   }
+//   images[index-1].style.display = "block";
+//   setTimeout(displayImages, 5000); 
+// }
+
 //Fade-in transition on scroll
 $(document).on("scroll", function() {
   var pageTop = $(document).scrollTop();

@@ -175,10 +175,6 @@ header input[type=text]:focus {
     animation: fadeIn 2.5s;
 }
 
-@keyframes fadeIn {
-    0% { opacity: 0; }
-    100% { opacity: 1; }
-}
 
 .container-2{
     position: relative;
@@ -206,6 +202,11 @@ header input[type=text]:focus {
     overflow: hidden;
 }
 
+@keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+}
+
 /* .container img{
     position: absolute;
     width: 600px;
@@ -213,6 +214,7 @@ header input[type=text]:focus {
 } */
 
 .home-text{
+    /* margin-top: 200px; */
     padding: 0 220px;
     animation: fadeIn 2.5s;
     -webkit-animation: fadeIn 2.5s;
@@ -275,7 +277,6 @@ header input[type=text]:focus {
 }
 
 
-
 .btn .bx{
     padding: 4px;
     background: var(--bg-color);
@@ -317,6 +318,16 @@ header input[type=text]:focus {
 .swiper-button-prev:after{
     display: none;
 }
+
+.swiper-slide{
+    animation-name: swiper-slide;
+    animation-duration: 2s;
+}
+
+@keyframes swiper-slide {
+    from {opacity: .5}
+    to {opacity: 1}
+  }
 
 .heading{
     display:flex;
