@@ -958,6 +958,35 @@ input[type=submit]:hover {
     .container img{
         right: 100px;
     }
+    
+    .coming-soon h2{
+        font-size: 40px;
+    }
+
+    .lightbox h2{
+        margin: 0px;
+    }
+    
+    .categories-container{
+        margin-top: 1rem;
+    }
+
+    .about-text p{
+        margin: 0.1rem 0 1rem;
+        font-size: 14px;
+    }
+
+    .subscribe h2{
+        font-size: 1.2rem;
+    }
+
+    .subscribe p{
+        font-size: 14px;
+    }
+
+    .subscribe-form{
+        margin-top: 15px;
+    }
 }
 
 @media (max-width: 991px){
@@ -1048,11 +1077,11 @@ input[type=submit]:hover {
     }
 
     .heading h1{
-        font-size: 1.2rem;
+        font-size: 1.4rem;
     }
 
     .about{
-        grid-template-columns: repeat(auto-fit, minmax(20rem, auto));
+        grid-template-columns: repeat(auto-fit, minmax(15rem, auto));
     }
     
     .about img{
@@ -1069,6 +1098,7 @@ input[type=submit]:hover {
 
     .btn{
         max-width: 164px;
+        font-size: 14px;
     }
 
     .customers h2{
