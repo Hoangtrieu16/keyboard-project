@@ -1030,6 +1030,10 @@ input[type=submit]:hover {
         gap: 1rem;
     }
 
+    .modal-content{
+        margin: 200px auto;
+    }
+
 }
 
 @media (max-width: 852px){
@@ -1042,7 +1046,7 @@ input[type=submit]:hover {
     }
 
     .close{
-        top: 50px;
+        top: 230px;
     }
 
     .navbar{
