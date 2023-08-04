@@ -137,9 +137,9 @@
     display: none;
 }
   
-.social, .copyright {
+/* .social, .copyright {
     margin: 1rem;
-}
+} */
   
 .social li {
     display: inline-block;
