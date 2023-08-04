@@ -1030,9 +1030,9 @@ input[type=submit]:hover {
         gap: 1rem;
     }
 
-    .modal-content{
+    /* .modal-content{
         margin: 200px auto;
-    }
+    } */
 
 }
 
@@ -1046,7 +1046,7 @@ input[type=submit]:hover {
     }
 
     .close{
-        top: 230px;
+        top: 50px;
     }
 
     .navbar{
