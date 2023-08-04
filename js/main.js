@@ -17,6 +17,10 @@ var swiper = new Swiper(".home", {
     nextEl: ".swiper-button-next",
     prevEl: ".swiper-button-prev",
   },
+    // spaceBetween: 10,
+    // slidesPerView: 4,
+    // freeMode: true,
+    // watchSlidesProgress: true,
 });
   
 let menu = document.querySelector('#menu-icon');
@@ -88,17 +92,33 @@ function showSlides(n) {
 // }
 
 //Fade-in transition on scroll
-$(document).on("scroll", function() {
-  var pageTop = $(document).scrollTop();
-  var pageBottom = pageTop + $(window).height();
-  var tags = $(".tag");
+// $(document).on("scroll", function() {
+//   var pageTop = $(document).scrollTop();
+//   var pageBottom = pageTop + $(window).height();
+//   var tags = $(".tag");
 
-  for (var i = 0; i < tags.length; i++) {
-    var tag = tags[i];
-    if ($(tag).position().top < pageBottom) {
-      $(tag).addClass("visible");
-    } else {
-      $(tag).removeClass("visible");
-    }
-  }
-});
+//   for (var i = 0; i < tags.length; i++) {
+//     var tag = tags[i];
+//     if ($(tag).position().top < pageBottom) {
+//       $(tag).addClass("visible");
+//     } else {
+//       $(tag).removeClass("visible");
+//     }
+//   }
+// });
+
+
+//Fade-in transition on scroll
+// function reveal() {
+//   var reveals = document.querySelectorAll(".reveal");
+//   for (var i = 0; i < reveals.length; i++) {
+//     var windowHeight = window.innerHeight;
+//     var elementTop = reveals[i].getBoundingClientRect().top;
+//     var elementVisible = 150;
+//     if (elementTop < windowHeight - elementVisible) {
+//       reveals[i].classList.add("active");
+//     } else {
+//       reveals[i].classList.remove("active");
+//     }
+//   }
+// }

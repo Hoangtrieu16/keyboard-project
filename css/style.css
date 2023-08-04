@@ -90,7 +90,19 @@ header input[type=text] {
   
 header input[type=text]:focus {
     width: 100%;
-  }
+}
+
+/* .reveal{
+    position: relative;
+    transform: translateY(150px);
+    opacity: 0;
+    transition: 1s all ease;
+}
+  
+.reveal.active{
+    transform: translateY(0);
+    opacity: 1;
+} */
 
 .profile{
     display: flex;
@@ -1017,6 +1029,10 @@ input[type=submit]:hover {
     .about{
         gap: 1rem;
     }
+
+    .home-text{
+        padding: 0;
+    }
 }
 
 @media (max-width: 852px){
@@ -1172,4 +1188,5 @@ input[type=submit]:hover {
     .categories-container{
         gap: 1.5;
     }
+
 }

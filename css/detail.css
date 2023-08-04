@@ -47,6 +47,23 @@
     font-size: 2rem;
 }
 
+.banner{
+    max-width: auto;
+    margin-left: auto;
+    margin-right: auto;
+    background: var(--green-color);
+    padding: 5rem 0;
+}
+
+.banner h2{
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 40px;
+    color: var(--bg-color);
+    /* background: var(--bg-color);
+    color: var(--green-color) */
+}
+
 .gallery {
     max-width: 968px;
     margin-left: auto;
@@ -159,6 +176,10 @@
       display: block;
       padding: 1rem 0;
     }
+
+    .detail{
+        padding: 42px;
+    }
 }
 
 @media (max-width: 642px){
@@ -181,4 +202,8 @@
     .img-content-hover{
         display: none;
     }
+
+    /* .detail{
+        padding: 0 120px;
+    } */
 }
