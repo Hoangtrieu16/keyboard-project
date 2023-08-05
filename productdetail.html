@@ -1,52 +1,150 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Product Details</title>
-  <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- Css -->
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/product-detail.css">
+    <!--Icons-->
+    <link rel="stylesheet"
+     href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+    <!-- Link Swiper's CSS -->
+    <link rel="stylesheet" 
+    href="https://cdn.jsdelivr.net/npm/swiper@7/swiper-bundle.min.css"/>
+    <!--jQuery-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
 </head>
 <body>
-  <header>
-    <nav>
-      <ul>
-        <li><a href="#">Home</a></li>
-        <li><a href="#">About</a></li>
-        <li><a href="#">Contact</a></li>
-      </ul>
-    </nav>
-  </header>
-  <main>
-    <section class="product-details">
-      <h1>Product Name</h1>
-      <p>Product Description</p>
-      <div class="product-price">
-        <span>$</span>
-        <span class="price">199</span>
-      </div>
-      <div class="product-image">
-        <img src="product-image.jpg" alt="Product Image">
-      </div>
-      <div class="product-features">
-        <h2>Features</h2>
-        <ul>
-          <li>Feature 1</li>
-          <li>Feature 2</li>
-          <li>Feature 3</li>
+    <!--Navbar-->
+    <header>
+        <a href="" class="logo"><i class='bx bxs-keyboard'></i>TAOC Store</a>
+        <!--Menu icons--> 
+        <div class="bx bx-menu" id="menu-icon"></div>
+
+        <!--Navbar list-->
+        <ul class="navbar">
+            <li><a href="./index.html"">Home</a></li>
+            <!-- <li><a href="#categories">Categories</a></li> -->
+            <li><a href="/product.html" class="home-active">Products</a></li>
+            <li><a href="/about.html">About</a></li>
+            <li><a href="/contact.html">Contact</a></li>
         </ul>
+
+        <!--Profile-->
+            <ul class="navbar">
+                <li><a href="/login.html">Login</a></li>
+                <li><a href="/signup.html">Sign up</a></li>
+            </ul>
+    </header>
+    <!--Product detail-->
+    <section class="product-detail" id="product-detail">
+
+      <div class="left-column">
+        <img data-image="black" src="./images/bg.jpg" alt="">
+        <img data-image="blue" src="./images/bg2.jpg" alt="">
+        <img data-image="red" class="active" src="./images/bg3.jpg" alt="">
       </div>
-      <div class="product-reviews">
-        <h2>Reviews</h2>
-        <div class="review">
-          <p>Review 1</p>
-          <span>Rating: 4.5</span>
+
+     
+      <!-- Right Column -->
+      <div class="right-column">
+     
+        <!-- Product Description -->
+        <div class="product-description">
+          <span>Option</span>
+          <h1>Keyboard</h1>
+          <p>The preferred choice of a vast range of acclaimed DJs. Punchy, bass-focused sound and high isolation. Sturdy headband and on-ear cushions suitable for live performance</p>
         </div>
-        <div class="review">
-          <p>Review 2</p>
-          <span>Rating: 4.0</span>
+
+        <!-- Product Pricing -->
+        <div class="product-price">
+          <span>148$</span>
+        </div>
+     
+        <!-- Product Configuration -->
+        <div class="product-configuration">
+     
+          <!-- Product Color -->
+          <div class="product-color">
+            <span>Color:</span>
+     
+            <div class="color-choose">
+              <div>
+                <input data-image="red" type="radio" id="red" name="color" value="red" checked>
+                <label for="red"><span></span></label>
+              </div>
+              <div>
+                <input data-image="blue" type="radio" id="blue" name="color" value="blue">
+                <label for="blue"><span></span></label>
+              </div>
+              <div>
+                <input data-image="black" type="radio" id="black" name="color" value="black">
+                <label for="black"><span></span></label>
+              </div>
+            </div>  
+          </div>
+     
+          <!-- Cable Configuration -->
+          <div class="cable-config">
+            <span>Switch:</span>
+     
+            <div class="cable-choose">
+              <button>Blue</button>
+              <button>Brown</button>
+              <button>Red</button>
+            </div>
+     
+          </div>
+        </div>
+
+        <!-- Product button -->
+        <div class="product-price">
+          <a href="#" class="cart-btn left">Add to card</a>
+          <a href="#" class="cart-btn right">Buy now</a>
         </div>
       </div>
     </section>
-  </main>
-  <footer>
-    <p>© 202
+
+    <!--Footer-->
+    <section class="footer" id="footer">
+        <div class="footer-box">
+            <a href="" class="logo"><i class='bx bxs-keyboard'></i>TAOC Store</a>
+            <p>Kimson area, Longthanh town,<br>Longthanh district, Dongnai province</p>
+            <div class="social">
+                <a href="#"><i class="bx bxl-facebook"></i></a>
+                <a href="#"><i class="bx bxl-instagram"></i></a>
+                <a href="#"><i class="bx bxl-tiktok"></i></a>
+            </div>
+        </div>
+        <div class="footer-box">
+            <h2>Categories</h2>
+            <a href="#">Fruits & vegetable</a>
+            <a href="#">Dairy products</a>
+        </div>
+        <div class="footer-box">
+            <h2>Useful links</h2>
+            <a href="#">Payment & tax</a>
+            <a href="#">Terms of use</a>
+            <a href="#">My Blog</a>
+            <a href="#">Return Policy</a>
+        </div>
+    </section>
+
+    <!--Copyright-->
+    <div class="copyright">
+        <p>&#169; Hoangtrieusodope</p>
+    </div>
+    
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+
+    <!--Link to JS-->
+    <script src="./js/main.js"></script>
+    <script src="./js/product-detail.js"></script>
+
+    <!--Jquery-->
+    <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script> -->
+</body>
+</html>
