@@ -385,6 +385,7 @@ header input[type=text]:focus {
     height: 240px;
     object-fit: contain;
     object-position: center;
+    border-radius: 0.2rem;
 }
 
 .categories-container .box h2{
@@ -476,7 +477,7 @@ header input[type=text]:focus {
 
 .lightbox img{
     box-shadow: 1px 2px 11px 4px rgb(14 55 54 / 15%);
-    border-radius: 0.3rem;
+    border-radius: 0.2rem;
 }
 
 .row > .column {
@@ -616,7 +617,7 @@ img.hover-shadow {
 }
 
 .products{
-    max-width: 1140px;
+    max-width: 968px;
     margin-left: auto;
     margin-right: auto; 
 }
@@ -721,6 +722,13 @@ img.hover-shadow {
     text-align: center;
     text-transform: uppercase;
 }
+
+/* .coming-soon span{
+    text-align: center;
+    font-size: 32px;
+    font-weight: 600;
+    color: var(--green-color);
+} */
 
 .about-text{
     text-align: center;
