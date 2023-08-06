@@ -230,7 +230,8 @@
    
     .left-column,
     .right-column {
-      width: 100%;
+        width: 90%;
+        margin-top: 100px;
     }
    
     .left-column img {
@@ -243,7 +244,16 @@
    
   @media (max-width: 535px) {
     .left-column img {
-      width: 220px;
-      top: -85px;
+        width: 330px;
+        top: -125px;
+        left: 1px;
+    }
+
+    .product-detail{
+        max-width: 330px;
+        display: flex;
+        align-items: baseline;
+        flex-direction: column;
+        padding: 6rem 0px 1.5rem;
     }
   }
