@@ -8,13 +8,14 @@ input[type=text], input[type=password] {
 }
 
 .login button {
-  background-color: #04AA6D;
-  color: white;
+  background-color: var(--green-color);
+  color: var(--bg-color);
   padding: 14px 20px;
   margin: 8px 0;
   border: none;
   cursor: pointer;
   width: 100%;
+  border-radius: 0.5rem;
 }
 
 .login button:hover {
@@ -38,14 +39,14 @@ img.avatar {
 } */
 
 .login {
-  max-width: 968px;
+  max-width: 400px;
   margin-left: auto;
   margin-right: auto;
 }
 
 span.psw {
   float: right;
-  padding-top: 16px;
+  /* padding-top: 16px; */
 }
 
 /* Change styles for span and cancel button on extra small screens */

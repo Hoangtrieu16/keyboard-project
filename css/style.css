@@ -701,6 +701,7 @@ img.hover-shadow {
     height: 240px;
     object-fit: contain;
     object-position: center;
+    /* border-radius: 0.5rem; */
 }
 
 .products-container .box span{
