@@ -124,6 +124,111 @@ header input[type=text]:focus {
     font-weight: 500;
 }
 
+.profile a{
+    /* background: var(--green-color); */
+    border-radius: 0.5rem;
+    color: var(--bg-color);
+    transition: background 0.5s;
+    font-size: 1rem;
+    font-weight: 500;
+    padding: 0.5rem 1rem;
+}
+
+.dropdown {
+    float: left;
+    overflow: hidden;
+  }
+  
+.dropdown .dropbtn {
+    font-size: 17px;    
+    border: none;
+    outline: none;
+    color: white;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+}
+  
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+  
+.profile .dropdown-content a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-content a:hover{
+    background: var(--green-color);
+    color: white;
+}
+  
+/* .topnav a:hover, .dropdown:hover .dropbtn {
+    background-color: #555;
+    color: white;
+}
+  
+.dropdown-content a:hover {
+    background-color: #ddd;
+    color: black;
+} */
+
+button.subnavbtn{
+    border: none;
+    font-size: 18px;
+    background: var(--bg-color);
+}
+  
+.dropdown-content {
+    right: 100px;
+    top: 60px;
+}
+  
+  @media screen and (max-width: 600px) {
+    .topnav a:not(:first-child), .dropdown .dropbtn {
+      /* display: none; */
+    }
+    .topnav a.icon {
+      float: right;
+      display: block;
+    }
+    .dropdown:hover .dropdown-content{
+        right: 0;
+        top: 50px;
+    }
+  }
+  
+  @media screen and (max-width: 600px) {
+    .topnav.responsive {position: relative;}
+    .topnav.responsive .icon {
+      position: absolute;
+      right: 0;
+      top: 0;
+    }
+    .topnav.responsive a {
+      float: none;
+      display: block;
+      text-align: left;
+    }
+    .topnav.responsive .dropdown {float: none;}
+    .topnav.responsive .dropdown-content {position: relative;}
+    .topnav.responsive .dropdown .dropbtn {
+      display: block;
+      width: 100%;
+      text-align: left;
+    }
+  }
+
 .search-box{
     /* width: fit-content;
     height: fit-content; */
@@ -698,10 +803,19 @@ img.hover-shadow {
 
 .products-container .box img{
     width: 100%;
-    height: 240px;
+    height: 175px;
     object-fit: contain;
     object-position: center;
     /* border-radius: 0.5rem; */
+}
+
+.products-container .box img{
+    transition: 0.3s all ease-in-out;
+    /* border-radius: 0.5rem; */
+}
+  
+.products-container .box img:hover {
+    transform: scale(1.1);
 }
 
 .products-container .box span{

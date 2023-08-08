@@ -6,6 +6,8 @@
     <title>Document</title>
     <!-- Css -->
     <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/cart.css">
+    <link rel="stylesheet" href="./css/search.css">
     <!--Icons-->
     <link rel="stylesheet"
      href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
@@ -30,21 +32,62 @@
         </ul>
 
         <!--Search-->
+        <!-- <div class="parent">
+            <input class="input" type="type" placeholder="Search..." />
+            <button class="btn">
+                <i class="bx bxs-search"></i>
+            </button>
+        </div> -->
 
-        <!-- <ul class="navbar">
-            <div class="search-box">
-                <button class="btn-search"><i class="bx bxs-search"></i></button>
-                <input type="text" class="input-search" placeholder="Type to Search...">
+        <!--Profile-->
+        <div class="profile">
+            <!-- <img src="./images/me.jpg" alt="">
+            <span>Trieumayusi</span> -->
+            
+            <div class="topnav" >
+                <div class="dropdown">
+                    <button class="subnavbtn">
+                        <i class="bx bx-user"></i>
+                    </button>
+                  <div class="dropdown-content">
+                    <!-- <a href="#">Account</a>
+                    <a href="#">Settings</a>
+                    <a href="#">Log out</a> -->
+                    <li><a href="login.html">Login</a></li>
+                    <li><a href="signup.html">Sign up</a></li>
+                  </div>
+                </div> 
+              </div>
+        </div>
+
+        
+
+        <!--Cart-->
+        <!-- <nav role="navigation">
+            <div id="menuToggle">
+              <input type="checkbox"/>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                <ul id="menu-cart">
+                    <a href="#"><li>Home</li></a>
+                    <a href="#"><li>About</li></a>
+                    <a href="#"><li>Info</li></a>
+                    <a href="#"><li>Contact</li></a>
+              </ul>
             </div>
-        </ul> -->
+          </nav> -->
 
-        <!--Account-->
-
-        <ul class="navbar">
-            <li><a href="login.html">Login</a></li>
-            <li><a href="signup.html">Sign up</a></li>
-        </ul>
+          
     </header>
+      
+    </section>
+    <div class="js-menu__context">
+      <div id="main-nav" class="js-menu js-menu--right">
+        <span class="js-menu__close">✕</span>
+        <p>You have no items in your cart.</p>
+      </div>
+    </div>
 
     <!--Home-->
     <section class="home swiper" id="home">
@@ -98,15 +141,60 @@
                         <a href="./detail.html" class="btn">Learn More</a>
                  </div>
         </section>
-        <section class="about" id="about">
+        <!-- <section class="about" id="about">
                  <div class="about-text">
-                        <!-- <span>About Us</span> -->
+                        <span>About Us</span>
                         <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dignissimos, dolores soluta. Modi laboriosam atque soluta dolore ex facere laborum ducimus.</p>
                         <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Illo, aspernatur cum.</p>
                         <a href="./detail.html" class="btn">Learn More</a>
                  </div>
                  <img src="./images/about1.jpg" alt="">
-        </section>
+        </section> -->
+    </section>
+
+    <!--Products-->
+    <section class="products" id="products">
+        <div class="heading">
+            <h1>Our Popular <br><span>Products</h1>
+            <a href="" class="btn">Shop Now</a>
+        </div>
+
+        <!-- <div class="box-sidebar">
+            <div class="slider">
+                <input type="range" name="" value="">
+            </div>
+        </div> -->
+
+        <!--Product content-->
+        <div class="products-container">
+            <!--Box 1-->
+            <div class="box">
+                <!-- <a href="./productdetail.html"></a>     -->
+                <img src="./images/about.jpeg" alt="">
+                <span>Items</span>
+                <h2>Keyboard</h2>
+                <h3 class="price">$7.99</h3>
+                <a class="bx bx-cart-alt" href="./productdetail.html"></a>
+            </div>
+
+            <!--Box 2-->
+            <div class="box">
+                <img src="./images/about1.jpg" alt="">
+                <span>Items</span>
+                <h2>Keyboard</h2>
+                <h3 class="price">$7.99</h3>
+                <i class="bx bx-cart-alt"></i>
+            </div>
+
+            <!--Box 3-->
+            <div class="box">
+                <img src="./images/about1.jpg" alt="">
+                <span>Items</span>
+                <h2>Keyboard</h2>
+                <h3 class="price">$7.99</h3>
+                <i class="bx bx-cart-alt"></i>
+            </div>
+        </div>
     </section>
 
     <!--Categories-->
