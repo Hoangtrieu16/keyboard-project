@@ -547,7 +547,7 @@ button.subnavbtn{
 
 .categories-container .box img{
     width: 100%;
-    height: 240px;
+    /* height: 240px; */
     object-fit: contain;
     object-position: center;
     border-radius: 0.5rem;

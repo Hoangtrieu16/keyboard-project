@@ -13,6 +13,8 @@
     <!-- Link Swiper's CSS -->
     <link rel="stylesheet" 
     href="https://cdn.jsdelivr.net/npm/swiper@7/swiper-bundle.min.css"/>
+    <!--jQuery-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
 </head>
 <body>
     <!--Navbar-->
@@ -95,31 +97,45 @@
         <section class="about" id="about">
             <img src="./images/about.jpeg" alt="">
                  <div class="about-text">
-                        <span>Name Product</span>
-                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dignissimos, dolores soluta. Modi laboriosam atque soluta dolore ex facere laborum ducimus.</p>
-                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Illo, aspernatur cum.</p>
+                        <span> Keyboard Fibercarbon</span>
+                        <p>Fibercarbon is used in hypercars and spaceships due of its exceptional rigidity, durability, and weave guiding vibration on a small weight scale.</p>
+                        <p>Concerning the Carbon 65 specifics</p>
+                        <p>The frame is made of inner chopped carbon and wrapped in a weaving pattern (optional).</p>
+
                         <!-- <a href="" class="btn">Learn More</a> -->
                  </div>
         </section>
+        <!--
         <section class="about" id="about">
                  <div class="about-text">
-                        <!-- <span>About Us</span> -->
-                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dignissimos, dolores soluta. Modi laboriosam atque soluta dolore ex facere laborum ducimus.</p>
-                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Illo, aspernatur cum.</p>
+                        <span>About Us</span>
                  </div>
                  <img src="./images/about1.jpg" alt="">
-        </section>
+        </section> -->
         <!-- <a href="" class="btn right">Learn More</a> -->
+    </section>
+
+    <section class="banner" id="banner">
+      <h2>Mount</h2>
+      <div class="banner-container"></div>
+    </section>
+
+
+    <!--Categories-->
+    <section class="about" id="about">
+        <div class="about-text">
+               <span>Layout</span>
+            <p>We use our new invention in mounting system identical to gasket system 
+                but without the screw between plate and case, 
+                which allows for individual customization not only on material 
+                but also on whereas sound make different 
+                (ex: spacebar plate without gasket makes this particular spacebar sound more hollow and louder).
+            </p>
+        </div>
+        <img src="./images/about1.jpg" alt="">
 
     </section>
 
-    <!-- <section class="banner" id="banner">
-      <h2>Sub-Banner</h2>
-      <div class="banner-container"></div>
-    </section> -->
-
-
-      <!--Categories-->
     <section class="categories" id="categories">
       <div class="heading">
           <h1>Browse Our Hottest <br><span>Option Keyboard</span></h1>
@@ -131,30 +147,54 @@
           <!-- Box 1 -->
           <div class="box box-1">
               <img src="./images/bg.jpg" alt="">
-              <h2>Keyboard</h2>
-              <span>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Illo, aspernatur cum.</span>
+              <h2>PCB</h2>
+              <span> Pcb comes with a 65% layout, both solder and hot swap options, bluetooth, and wiring.</span>
               <!-- <i class="bx bx-plus"></i> -->
-              <i><a href="" class="btn ">Learn More</a></i>
+              <!-- <i><a href="" class="btn ">Learn More</a></i> -->
           </div>
 
           <!-- Box 2 -->
           <div class="box box-2">
               <img src="./images/bg2.jpg" alt="">
-              <h2>Keyboard</h2>
-              <span>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Illo, aspernatur cum.</span>
+              <h2>Brass weight</h2>
+              <span>Brass weight is built within 2.2kg and is appropriate for fixed setup.</span>
               <!-- <i class="bx bx-plus"></i> -->
-              <i><a href="" class="btn ">Learn More</a></i>
+              <!-- <i><a href="" class="btn ">Learn More</a></i> -->
           </div>
 
           <!-- Box 3 -->
           <div class="box box-3">
               <img src="./images/bg3.jpg" alt="">
-              <h2>Keyboard</h2>
-              <span>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Illo, aspernatur cum.</span>
+              <h2>Non-brass Weight</h2>
+              <span>Non-brass weight construction 0.8kg ideal for mobility.</span>
               <!-- <i class="bx bx-plus"></i> -->
-              <i><a href="" class="btn ">Learn More</a></i>
+              <!-- <i><a href="" class="btn ">Learn More</a></i> -->
           </div>
-  </section>
+    </section>
+
+    <section class="categories section2" id="categories">  
+        <!-- Container content -->
+        <div class="categories-container">
+            <!-- Box 4 -->
+            <div class="box box-3">
+                <img src="./images/bg3.jpg" alt="">
+                <h2>Materials</h2>
+                <span>The material's stiffness causes the sound to be distinct.</span>
+                <!-- <i class="bx bx-plus"></i> -->
+                <!-- <i><a href="" class="btn ">Learn More</a></i> -->
+            </div>
+
+            <!-- Box 5 -->
+            <div class="box box-3">
+                <img src="./images/bg3.jpg" alt="">
+                <h2>Sound</h2>
+                <span>Individual sound modification is possible due to the mounting technique.</span>
+                <!-- <i class="bx bx-plus"></i> -->
+                <!-- <i><a href="" class="btn ">Learn More</a></i> -->
+            </div>
+    </section>
+
+  
 
     <!--Light Box-->
     <section class="tag lightbox" id="lightbox">
@@ -234,9 +274,9 @@
     <section class="product-detail" id="product-detail">
 
       <div class="left-column">
-          <img data-image="black" src="./images/bg.jpg" alt="">
-          <img data-image="blue" src="./images/bg2.jpg" alt="">
-          <img data-image="red" class="active" src="./images/bg3.jpg" alt="">
+            <img data-image="red" class="active" src="./images/bg3.jpg" alt="">
+            <img data-image="black" src="./images/bg.jpg" alt="">
+            <img data-image="blue" src="./images/bg2.jpg" alt="">
       </div>
 
       <!-- Right Column -->
@@ -245,13 +285,15 @@
         <!-- Product Description -->
         <div class="product-description">
           <span>Option</span>
-          <h1>Keyboard</h1>
-          <p>The preferred choice of a vast range of acclaimed DJs. Punchy, bass-focused sound and high isolation. Sturdy headband and on-ear cushions suitable for live performance</p>
+          <h1>Keyboard Fibercarbon</h1>
+          <p>This is a masterpiece that is handcrafted with a distinctive look that emphasises the owner's characteristics. 
+            The rigidity and durability of this item make it survive longer than time and trust worthy for every usage.
+        </p>
         </div>
 
         <!-- Product Pricing -->
         <div class="product-price">
-          <span>148$</span>
+          <span>2700$</span>
         </div>
      
         <!-- Product Configuration -->
@@ -366,5 +408,6 @@
     <!--Link to JS-->
     <script src="./js/main.js"></script>
     <script src="./js/detail.js"></script>
+    <script src="./js/product-detail.js"></script>
 </body>
 </html>
