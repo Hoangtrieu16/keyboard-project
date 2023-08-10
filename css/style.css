@@ -149,6 +149,10 @@ header input[type=text]:focus {
     font-family: inherit;
     margin: 0;
 }
+
+.dropdown .bx-user{
+    color: var(--text-color);
+}
   
 .dropdown-content {
     display: none;
