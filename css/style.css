@@ -126,8 +126,8 @@ header input[type=text]:focus {
 
 .profile a{
     /* background: var(--green-color); */
-    border-radius: 0.5rem;
-    color: var(--bg-color);
+    /* border-radius: 0.5rem; */
+    color: var(-green-color);
     transition: background 0.5s;
     font-size: 1rem;
     font-weight: 500;
@@ -137,7 +137,7 @@ header input[type=text]:focus {
 .dropdown {
     float: left;
     overflow: hidden;
-  }
+}
   
 .dropdown .dropbtn {
     font-size: 17px;    
@@ -161,16 +161,17 @@ header input[type=text]:focus {
   
 .profile .dropdown-content a {
     float: none;
-    color: black;
+    color: var(--green-color);
     padding: 12px 16px;
     text-decoration: none;
     display: block;
     text-align: left;
+    border-bottom: 2px solid var(--green-color);
 }
 
 .dropdown-content a:hover{
     background: var(--green-color);
-    color: white;
+    color: var(--bg-color);
 }
   
 /* .topnav a:hover, .dropdown:hover .dropbtn {
@@ -1243,6 +1244,11 @@ input[type=submit]:hover {
         box-shadow: 4px 4px 0 4px rgb(14 55 54 / 15%);
         transition: 0.2s all linear;
         text-align: left;
+    }
+
+    .dropdown-content{
+        right: 0;
+        top: 50px;
     }
     
     .navbar a{
