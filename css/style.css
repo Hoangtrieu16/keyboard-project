@@ -127,7 +127,7 @@ header input[type=text]:focus {
 .profile a{
     /* background: var(--green-color); */
     /* border-radius: 0.5rem; */
-    color: var(-green-color);
+    color: var(--green-color);
     transition: background 0.5s;
     font-size: 1rem;
     font-weight: 500;
