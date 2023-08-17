@@ -552,6 +552,7 @@ button.subnavbtn{
 }
 
 .sub-img img{
+    filter: invert(100%);
     width: 100px;
     height: 100px;
 }
@@ -1318,6 +1319,10 @@ input[type=submit]:hover {
         width: 300px;
     }
 
+    .sub-container{
+        grid-template-columns: repeat(auto-fit, minmax(100px, auto));
+    }
+
     .btn{
         padding: 0.6rem 1.2rem;
     }
@@ -1337,7 +1342,7 @@ input[type=submit]:hover {
     }
 
     .sub-container{
-        grid-template-columns: repeat(auto-fit, minmax(108px, auto));
+        grid-template-columns: repeat(auto-fit, minmax(100px, auto));
     }
 
     .sub-img p{
@@ -1390,8 +1395,6 @@ input[type=submit]:hover {
         object-fit: contain;
     }
 
-
-
 }
 
 @media (max-width: 370px){
@@ -1400,7 +1403,7 @@ input[type=submit]:hover {
     }
 
     
-    .profile img{
+`    .profile img{
         width: 30px;
         height: 30px;
     }
