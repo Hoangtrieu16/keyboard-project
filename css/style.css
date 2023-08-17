@@ -14,7 +14,7 @@
 
 /* Some variables*/
 :root{
-    --green-color: #211D70 ;
+    --main-color: #211D70 ;
     --light-green-color: #3c36b3;
     /* --orange-color: #f49f0a;
     --light-orange-color: #f08700; */
@@ -41,7 +41,7 @@
 ::-webkit-scrollbar-thumb{
     width: 0.5rem;
     border-radius: 5px;
-    background: var(--green-color);
+    background: var(--main-color);
 }
 
 section{
@@ -125,7 +125,7 @@ header input[type=text]:focus {
 }
 
 .profile a{
-    /* background: var(--green-color); */
+    /* background: var(--main-color); */
     /* border-radius: 0.5rem; */
     color: var(-green-color);
     transition: background 0.5s;
@@ -165,16 +165,16 @@ header input[type=text]:focus {
   
 .profile .dropdown-content a {
     float: none;
-    color: var(--green-color);
+    color: var(--main-color);
     padding: 12px 16px;
     text-decoration: none;
     display: block;
     text-align: left;
-    border-bottom: 2px solid var(--green-color);
+    border-bottom: 2px solid var(--main-color);
 }
 
 .dropdown-content a:hover{
-    background: var(--green-color);
+    background: var(--main-color);
     color: var(--bg-color);
 }
   
@@ -199,7 +199,7 @@ button.subnavbtn{
     top: 60px;
 }
   
-  @media screen and (max-width: 600px) {
+@media screen and (max-width: 600px) {
     .topnav a:not(:first-child), .dropdown .dropbtn {
       /* display: none; */
     }
@@ -211,7 +211,7 @@ button.subnavbtn{
         right: 0;
         top: 50px;
     }
-  }
+}
   
   @media screen and (max-width: 600px) {
     .topnav.responsive {position: relative;}
@@ -250,7 +250,7 @@ button.subnavbtn{
     outline: none;
     border-radius: 0.5rem;
     transition: all .5s ease-in-out;
-    background: var(--green-color);
+    background: var(--main-color);
     padding-right: 40px;
     color:#fff;
     /* display: none; */
@@ -305,7 +305,7 @@ button.subnavbtn{
 
 .logo .bx{
     font-size: 24px;
-    color: var(--green-color);
+    color: var(--main-color);
 }
 
 .navbar{
@@ -322,7 +322,7 @@ button.subnavbtn{
 
 .navbar a:hover, 
 .navbar .home-active{
-    background: var(--green-color);
+    background: var(--main-color);
     border-radius: 0.5rem;
     color: var(--bg-color);
     transition: background 0.5s;
@@ -448,7 +448,7 @@ button.subnavbtn{
 .btn{
     /* display: block; */
     padding: 0.6rem 1rem;
-    background: var(--green-color);
+    background: var(--main-color);
     color: var(--bg-color);
     font-weight: 500;
     border-radius: 0.5rem;
@@ -472,8 +472,8 @@ button.subnavbtn{
 
 .btn:hover{
     overflow: hidden;
-    /* border: 1px solid var(--green-color); */
-    color: var(--green-color);
+    /* border: 1px solid var(--main-color); */
+    color: var(--main-color);
     background: var(--bg-color);
     box-shadow: 0 8px 11px rgb(14 55 54 / 15%);
     transition: 0.3s ease;
@@ -525,7 +525,7 @@ button.subnavbtn{
 }
 
 .heading span{
-    color: var(--green-color);
+    color: var(--main-color);
 }
 
 .categories{
@@ -561,7 +561,7 @@ button.subnavbtn{
 .categories-container .box h2{
     font-size: 1.2rem;
     font-weight: 600;
-    color: var(--green-color);
+    color: var(--main-color);
 }
 
 .categories-container .box span{
@@ -573,7 +573,7 @@ button.subnavbtn{
 
 .categories-container .box .bx{
     padding: 10px;
-    background: var(--green-color);
+    background: var(--main-color);
     color: var(--bg-color);
     border-radius: 0.5rem;
     position: absolute;
@@ -584,7 +584,7 @@ button.subnavbtn{
 
 .categories-container .box .bx:hover{
     background: var(--bg-color);
-    color: var(--green-color);
+    color: var(--main-color);
     box-shadow: 0 8px 11px rgb(14 55 54 / 15%);
 }
 
@@ -627,7 +627,7 @@ button.subnavbtn{
 }
 
 .lightbox h2{
-    color: var(--green-color);
+    color: var(--main-color);
     font-size: 36px;
     text-align: center;
     margin: 32px;
@@ -732,7 +732,7 @@ button.subnavbtn{
     top: 50%;
     width: auto;
     padding: 16px;
-    margin-top: -50px;
+    margin-top: -175px;
     color: white;
     font-weight: bold;
     font-size: 20px;
@@ -778,11 +778,10 @@ button.subnavbtn{
   
 img.hover-shadow {
     transition: 0.5s;
-   
 }
   
 .hover-shadow:hover {
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.45);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.664), 0 6px 20px 0 rgba(0, 0, 0, 0.45);
     /* transform: scale(1.1); */
 }
 
@@ -849,7 +848,7 @@ img.hover-shadow {
     right: 0;
     bottom: 0;
     padding: 10px;
-    background: var(--green-color);
+    background: var(--main-color);
     color: var(--bg-color);
     font-size: 20px;
     border-radius: 0.5rem 0 0.5rem 0;
@@ -857,7 +856,7 @@ img.hover-shadow {
 
 .products-container .box .bx-cart-alt:hover{
     background: var(--bg-color);
-    color: var(--green-color);
+    color: var(--main-color);
     transition: 0.2s all linear;
 }
 
@@ -881,7 +880,7 @@ img.hover-shadow {
 }
 
 .about{
-    max-width: 1140px;
+    max-width: 1200px;
     margin-left: auto;
     margin-right: auto;
     display: grid;
@@ -891,13 +890,13 @@ img.hover-shadow {
 }
 
 .coming-soon{
-    max-width: 1080px;
+    max-width: 1400px;
     margin-left: auto;
     margin-right: auto;
 }
 
 .coming-soon h2{
-    color: var(--green-color);
+    color: var(--main-color);
     font-size: 48px;
     text-align: center;
     text-transform: uppercase;
@@ -907,7 +906,7 @@ img.hover-shadow {
     text-align: center;
     font-size: 32px;
     font-weight: 600;
-    color: var(--green-color);
+    color: var(--main-color);
 } */
 
 .about-text{
@@ -917,7 +916,7 @@ img.hover-shadow {
 .about-text span{
     font-size: 32px;
     font-weight: 600;
-    color: var(--green-color);
+    color: var(--main-color);
 }
 
 .about-text p{
@@ -939,7 +938,7 @@ img.hover-shadow {
     text-align:center;
     font-size: 1.6rem;
     font-weight: 600;
-    color: var(--green-color);
+    color: var(--main-color);
 }
 
 .customers-container{
@@ -953,7 +952,7 @@ img.hover-shadow {
     padding: 20px;
     box-shadow: 1px 2px 11px 4px rgb(14 55 54 / 15%);
     border-radius: 0.5rem;
-    border-bottom: 7px solid var(--green-color);
+    border-bottom: 7px solid var(--main-color);
 }
 
 .customers-container .box:hover{
@@ -996,14 +995,14 @@ img.hover-shadow {
 }
 
 .footer{
-    max-width: 1140px;
+    max-width: 1200px;
     margin-left: auto;
     margin-right: auto;
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(200px, auto));
     gap: 1.5rem;
     margin-top: 2rem;
-    background: var(--box-4);
+    background: var(--main-color);
     border-radius: 0.5rem;
     padding: 20px;
 }
@@ -1024,7 +1023,7 @@ img.hover-shadow {
 }
 
 .subscribe h2{
-    color: var(--green-color);
+    color: var(--main-color);
     font-size: 36px;
     text-align: center;
     text-transform: uppercase;
@@ -1055,7 +1054,7 @@ img.hover-shadow {
   
 .subscribe input[type=submit] {
     position: absolute;
-    background-color: var(--green-color);
+    background-color: var(--main-color);
     color: white;
     border: none;
     max-width: 120px;
@@ -1067,15 +1066,20 @@ img.hover-shadow {
 }
   
 input[type=submit]:hover {
-    color: var(--green-color);
+    color: var(--main-color);
     background: var(--bg-color);
     box-shadow: 0 8px 11px rgb(14 55 54 / 15%);
     transition: 0.3s ease;
-  }
+}
+
 
 .footer-box{
     display: flex;
     flex-direction: column;
+}
+
+.footer-box .logo .bx{
+    color: var(--bg-color);
 }
 
 .footer-box p{
@@ -1092,13 +1096,13 @@ input[type=submit]:hover {
 .social .bx{
     padding: 10px;
     background: var(--bg-color);
-    color: var(--price);
+    color: var(--main-color);
     border-radius: 0.5rem;
     font-size: 20px;
 }
 
 .social .bx:hover{
-    background: var(--green-color);
+    background: var(--main-color);
     color: var(--bg-color);
     transition: background 0.5s;
     transition: 0.2s all linear;
@@ -1108,10 +1112,11 @@ input[type=submit]:hover {
     font-size: 1.1rem;
     font-weight: 600;
     margin-bottom: 1rem;
+    color: var(--bg-color);
 }
 
 .footer-box a{
-    color: var(--blur-text-color);
+    color: var(--bg-color);
     margin-bottom: 1rem;
 }
 
@@ -1135,12 +1140,12 @@ input[type=submit]:hover {
 
 .footer-box form .bx{
     font-size: 20px;
-    color:var(--green-color);
+    color:var(--main-color);
     cursor: pointer;
 }
 
 .footer-box form .bxs-envelope{
-    color: var(--green-color);
+    color: var(--main-color);
 }
 
 .copyright{

@@ -80,13 +80,14 @@
           
     </header>
       
-    </section>
-    <div class="js-menu__context">
-      <div id="main-nav" class="js-menu js-menu--right">
-        <span class="js-menu__close">✕</span>
-        <p>You have no items in your cart.</p>
-      </div>
-    </div>
+    <!-- <section class="no-item">
+        <div class="js-menu__context">
+            <div id="main-nav" class="js-menu js-menu--right">
+                <span class="js-menu__close">✕</span>
+                <p>You have no items in your cart.</p>
+            </div>
+        </div>
+    </section> -->
 
     <!--Home-->
     <section class="home swiper" id="home">
@@ -143,7 +144,7 @@
                         <a href="./detail.html" class="btn">Learn More</a>
                  </div>
         </section>
-        <!-- <section class="about" id="about">
+        <section class="about" id="about">
                  <div class="about-text">
                         <span>About Us</span>
                         <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dignissimos, dolores soluta. Modi laboriosam atque soluta dolore ex facere laborum ducimus.</p>
@@ -151,52 +152,7 @@
                         <a href="./detail.html" class="btn">Learn More</a>
                  </div>
                  <img src="./images/about1.jpg" alt="">
-        </section> -->
-    </section>
-
-    <!--Products-->
-    <section class="products" id="products">
-        <div class="heading">
-            <h1>Our Popular <br><span>Products</h1>
-            <a href="" class="btn">Shop Now</a>
-        </div>
-
-        <!-- <div class="box-sidebar">
-            <div class="slider">
-                <input type="range" name="" value="">
-            </div>
-        </div> -->
-
-        <!--Product content-->
-        <div class="products-container">
-            <!--Box 1-->
-            <div class="box">
-                <!-- <a href="./productdetail.html"></a>     -->
-                <img src="./images/about.jpeg" alt="">
-                <span>Items</span>
-                <h2>Keyboard</h2>
-                <h3 class="price">$7.99</h3>
-                <a class="bx bx-cart-alt" href="./productdetail.html"></a>
-            </div>
-
-            <!--Box 2-->
-            <div class="box">
-                <img src="./images/about1.jpg" alt="">
-                <span>Items</span>
-                <h2>Keyboard</h2>
-                <h3 class="price">$7.99</h3>
-                <i class="bx bx-cart-alt"></i>
-            </div>
-
-            <!--Box 3-->
-            <div class="box">
-                <img src="./images/about1.jpg" alt="">
-                <span>Items</span>
-                <h2>Keyboard</h2>
-                <h3 class="price">$7.99</h3>
-                <i class="bx bx-cart-alt"></i>
-            </div>
-        </div>
+        </section>
     </section>
 
     <!--Categories-->
@@ -254,6 +210,12 @@
             <div class="column">
                 <img src="./images/about.jpeg" style="width:100%" onclick="openModal();currentSlide(4)" class="hover-shadow cursor">
             </div>
+            <!-- <div class="column">
+                <img src="./images/about.jpeg" style="width:100%" onclick="openModal();currentSlide(5)" class="hover-shadow cursor">
+            </div>
+            <div class="column">
+                <img src="./images/about.jpeg" style="width:100%" onclick="openModal();currentSlide(6)" class="hover-shadow cursor">
+            </div> -->
         </div>
 
         <!-- <a href="" class="btn">Learn More</a> -->
@@ -263,22 +225,32 @@
                 <div class="modal-content">
                     <div class="mySlides">
                         <div class="numbertext">1 / 4</div>
-                        <img src="./images/about.jpeg" style="width:100%">
+                        <img src="./images/dt1.jpg" style="width:100%">
                     </div>
 
                     <div class="mySlides">
                         <div class="numbertext">2 / 4</div>
-                        <img src="./images/about.jpeg" style="width:100%">
+                        <img src="./images/dt2.jpg" style="width:100%">
                     </div>
 
                     <div class="mySlides">
                         <div class="numbertext">3 / 4</div>
-                        <img src="./images/about.jpeg" style="width:100%">
+                        <img src="./images/dt3.jpg" style="width:100%">
                     </div>
                     
                     <div class="mySlides">
                         <div class="numbertext">4 / 4</div>
-                        <img src="./images/about.jpeg" style="width:100%">
+                        <img src="./images/dt4.jpg" style="width:100%">
+                    </div>
+
+                    <div class="mySlides">
+                        <div class="numbertext">4 / 4</div>
+                        <img src="./images/dt5.jpg" style="width:100%">
+                    </div>
+
+                    <div class="mySlides">
+                        <div class="numbertext">4 / 4</div>
+                        <img src="./images/dt6.jpg" style="width:100%">
                     </div>
                     
                     <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
@@ -290,16 +262,22 @@
 
                     <div class="row-column">
                         <div class="colum-insdie">
-                            <img class="demo cursor" src="./images/about.jpeg"  onclick="currentSlide(1)" alt="Model one">
+                            <img class="demo cursor" src="./images/dt1.jpg"  onclick="currentSlide(1)" alt="Model one">
                         </div>
                         <div class="column-inside">
-                            <img class="demo cursor" src="./images/about.jpeg"  onclick="currentSlide(2)" alt="Snow">
+                            <img class="demo cursor" src="./images/dt2.jpg"  onclick="currentSlide(2)" alt="Model two">
                         </div>
                         <div class="column-inside">
-                            <img class="demo cursor" src="./images/about.jpeg"  onclick="currentSlide(3)" alt="Mountains and fjords">
+                            <img class="demo cursor" src="./images/dt3.jpg"  onclick="currentSlide(3)" alt="Model three">
                         </div>
                         <div class="column-inside">
-                            <img class="demo cursor" src="./images/about.jpeg"  onclick="currentSlide(4)" alt="Northern Lights">
+                            <img class="demo cursor" src="./images/dt4.jpg"  onclick="currentSlide(4)" alt="Model four">
+                        </div>
+                        <div class="column-inside">
+                            <img class="demo cursor" src="./images/dt5.jpg"  onclick="currentSlide(5)" alt="Model five">
+                        </div>
+                        <div class="column-inside">
+                            <img class="demo cursor" src="./images/dt6.jpg"  onclick="currentSlide(6)" alt="Model six">
                         </div>
                     </div>
                 </div>
@@ -388,7 +366,7 @@
     </section>
 
     <!--Footer-->
-    <section class="tag footer" id="footer">
+    <footer class="tag footer" id="footer">
         <div class="footer-box">
             <a href="" class="logo"><i class='bx bxs-keyboard'></i>TAOC Store<a>
             <p>Kimson area, Longthanh town,<br>Longthanh district, Dongnai province</p>
@@ -414,12 +392,12 @@
             <h2>Newsletter</h2>
             <p>Get 10% discount with<br>Email Newsletter</p>
             <form action="">
-                <i class="bx bxs-envelope"></i>
+                <i class="bx bxs-envelope"></i>             
                 <input type="email" name="" id="" placeholder="Enter your email">
                 <i class="bx bx-arrow-back bx-rotate-180"></i>
             </form>
         </div> -->
-    </section>
+    </footer>
 
     <!--Copyright-->
     <div class="copyright">
