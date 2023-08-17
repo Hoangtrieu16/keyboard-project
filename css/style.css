@@ -528,6 +528,40 @@ button.subnavbtn{
     color: var(--main-color);
 }
 
+.sub-banner{
+    max-width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    background: var(--main-color);
+}
+
+.sub-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(180px, auto));
+    gap: 1rem;
+    margin: 1rem;
+}
+
+.sub-img{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    border-radius: 0.5rem;
+}
+
+.sub-img img{
+    width: 100px;
+    height: 100px;
+}
+
+.sub-img p{
+    margin-top: 15px;
+    text-align: center;
+    color: var(--bg-color);
+}
+
 .categories{
     max-width: 1140px;
     margin-left: auto;
@@ -1302,6 +1336,14 @@ input[type=submit]:hover {
         font-size: 1.4rem;
     }
 
+    .sub-container{
+        grid-template-columns: repeat(auto-fit, minmax(108px, auto));
+    }
+
+    .sub-img p{
+        font-size: 12px;
+    }
+
     .about{
         grid-template-columns: repeat(auto-fit, minmax(15rem, auto));
     }
@@ -1347,6 +1389,9 @@ input[type=submit]:hover {
         padding-top: 100px;
         object-fit: contain;
     }
+
+
+
 }
 
 @media (max-width: 370px){
@@ -1354,6 +1399,7 @@ input[type=submit]:hover {
         font-size: 1rem;
     }
 
+    
     .profile img{
         width: 30px;
         height: 30px;
