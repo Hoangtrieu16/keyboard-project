@@ -200,7 +200,8 @@ button.subnavbtn{
 }
   
 @media screen and (max-width: 600px) {
-    .topnav a:not(:first-child), .dropdown .dropbtn {
+    .topnav a:not(:first-child), 
+    .dropdown .dropbtn {
       /* display: none; */
     }
     .topnav a.icon {
@@ -1402,8 +1403,7 @@ input[type=submit]:hover {
         font-size: 1rem;
     }
 
-    
-`    .profile img{
+    .profile img{
         width: 30px;
         height: 30px;
     }
