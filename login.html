@@ -52,27 +52,49 @@
     </header>
 
     <!--Log in-->
-    <section class="login">
-        <h2>Login Form</h2>
-        <form method="post">
-          <div class="login">
-            <label for="uname"><b>Username</b></label>
-            <input type="text" placeholder="Enter Username" name="uname" required>
-        
-            <label for="psw"><b>Password</b></label>
-            <input type="password" placeholder="Enter Password" name="psw" required>
-            <label>
-                <input type="checkbox" checked="checked" name="remember"> Remember me
-            </label>
-            <span class="psw">Forgot <a href="/forgot-pw.html">password?</a></span>
-            <button type="submit">Log in</button>
+    <section class="customers_form">
+        <h2>Login / Register</h2>
+        <div class="action_form">
+
+            <div class="login">
+                <form method="post">
+                    <label for="uname"><b>Username</b></label>
+                    <input type="text" placeholder="Enter Username" name="uname" required>
+                
+                    <label for="psw"><b>Password</b></label>
+                    <input type="password" placeholder="Enter Password" name="psw" required>
+                    <label>
+                        <input type="checkbox" checked="checked" name="remember"> Remember me
+                    </label>
+                    <span class="psw">Forgot <a href="/forgot-pw.html">password?</a></span>
+                    <button type="submit">Log in</button>
+                
+                </form>
+            </div>
             
-          </div>
-        
-            <form action="./signup.html">
-                <input type="submit" value="Register" />
-            </form>
-        </form>
+            
+            <div class="register">
+                <form action="./signup.html">
+                    <label for="uname"><b>Username</b></label>
+                    <input type="text" placeholder="Enter Username" name="uname" required>
+                    
+                    <label for="psw"><b>Password</b></label>
+                    <input type="password" placeholder="Enter Password" name="psw" required>
+                    
+                    <label for="email"><b>Email</b></label>
+                    <input type="email" placeholder="Enter email" name="email" required>
+
+                    <label for="phone"><b>Phone</b></label>
+                    <input type="number" placeholder="Enter Phone number" name="phone" required>
+
+                    <div class="register_btn">
+                        <button class="gl-ic"><i class="bx bxl-google"></i> </button>
+                        <button type="submit">Register</button>
+                    </div>
+                </form>
+                
+            </div>
+        </div>
     </section>
 
     <!--Footer-->

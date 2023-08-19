@@ -1,4 +1,25 @@
-input[type=text], input[type=password] {
+.customers_form{
+  padding-top: 6rem;
+}
+
+.customers_form h2{
+  text-align: center;
+}
+
+.customers_form .action_form{
+  display: flex;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.register_btn{
+  display: flex;
+}
+
+input[type=text], 
+input[type=password],
+input[type=email],
+input[type=number] {
   width: 100%;
   padding: 12px 20px;
   margin: 8px 0;
@@ -7,8 +28,9 @@ input[type=text], input[type=password] {
   box-sizing: border-box;
 }
 
+.register_btn button,
 .login button {
-  background-color: var(--green-color);
+  background-color: var(--main-color);
   color: var(--bg-color);
   padding: 14px 20px;
   margin: 8px 0;
@@ -18,6 +40,21 @@ input[type=text], input[type=password] {
   border-radius: 0.5rem;
 }
 
+.register_btn button{
+  width: 100%;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.register_btn .gl-ic{
+  background-color: var(--star);
+}
+
+.register_btn button i{
+  font-size: 20px;
+}
+
+.register_btn button:hover,
 .login button:hover {
   opacity: 0.8;
 }
@@ -38,6 +75,7 @@ img.avatar {
   border-radius: 50%;
 } */
 
+.register,
 .login {
   max-width: 400px;
   margin-left: auto;
