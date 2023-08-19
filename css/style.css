@@ -200,6 +200,11 @@ button.subnavbtn{
 }
   
 @media screen and (max-width: 600px) {
+    
+    .action_form{
+      display: flex;
+      flex-direction: column;
+    }
     .topnav a:not(:first-child), 
     .dropdown .dropbtn {
       /* display: none; */
@@ -215,6 +220,10 @@ button.subnavbtn{
 }
   
   @media screen and (max-width: 600px) {
+    .action_form{
+      display: flex;
+      flex-direction: column;
+    }
     .topnav.responsive {position: relative;}
     .topnav.responsive .icon {
       position: absolute;
@@ -1191,6 +1200,7 @@ input[type=submit]:hover {
 
 /* Responsive */
 @media (max-width: 1080px){
+    
     header{
         padding: 18px 60px;
     }
@@ -1234,6 +1244,10 @@ input[type=submit]:hover {
 }
 
 @media (max-width: 991px){
+    .action_form{
+      display: flex;
+      flex-direction: column;
+    }
     header{
         padding: 18px 4%; 
     }
@@ -1266,6 +1280,10 @@ input[type=submit]:hover {
 }
 
 @media (max-width: 852px){
+    .action_form{
+      display: flex;
+      flex-direction: column;
+    }
     header{
         padding: 12px 4%;
     }
@@ -1334,6 +1352,10 @@ input[type=submit]:hover {
 }
 
 @media (max-width: 712px){
+    .action_form{
+      display: flex;
+      flex-direction: column;
+    }
     .container img{
         right: 20px;
     }
@@ -1381,6 +1403,10 @@ input[type=submit]:hover {
 }
 
 @media (max-width: 642px){
+    .action_form{
+      display: flex;
+      flex-direction: column;
+    }
     .container img{
         right: 0;
         width: 370px;
@@ -1388,6 +1414,10 @@ input[type=submit]:hover {
 }
 
 @media (max-width: 546px){
+    .action_form{
+      display: flex;
+      flex-direction: column;
+    }
     .container img{
         right: 0;
         width: 200px;
@@ -1399,6 +1429,10 @@ input[type=submit]:hover {
 }
 
 @media (max-width: 370px){
+    .action_form{
+      display: flex;
+      flex-direction: column;
+    }
     .logo{
         font-size: 1rem;
     }

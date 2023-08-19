@@ -80,6 +80,10 @@ span.psw {
   /* padding-top: 16px; */
 }
 
+span.psw a:hover{
+  color: red;
+}
+
 /* Change styles for span and cancel button on extra small screens */
 @media screen and (max-width: 300px) {
   span.psw {

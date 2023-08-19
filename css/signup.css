@@ -3,6 +3,10 @@
   text-align: center;
 }
 
+.signup p{
+  font-size: 12px;
+}
+
 .form_signup{
   padding: 0 20px;
 }
@@ -36,6 +40,8 @@ input[type=text], input[type=password] {
     cursor: pointer;
     width: 100%;
     opacity: 0.9;
+    border-radius: 10px;
+
   }
   
   .signup button:hover {
@@ -56,16 +62,32 @@ input[type=text], input[type=password] {
   
   /* Add padding to container elements */
   .signup{
-    max-width: 968px;
+    max-width: 33.333%;
     margin-left: auto;
     margin-right: auto; 
   }
+
+  .gg_icon .gg_ic{
+    width: 90%;
+    background-color: var(--star);
+    font-size: 20px;
+    padding: 10px 16px;
+    margin: 8px 20px;
+  }
   
   /* Clear floats */
-  .clearfix::after {
+  .clearfix{
+    display: flex;
+  }
+
+  /* .clearfix::after {
     content: "";
     clear: both;
     display: table;
+  } */
+
+  .clearfix button{
+    margin: 0 20px;
   }
   
   /* Change styles for cancel button and signup button on extra small screens */
