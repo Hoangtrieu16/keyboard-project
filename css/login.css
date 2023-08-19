@@ -12,14 +12,21 @@
   margin: 0 auto;
 }
 
-.register_btn{
-  display: flex;
+.register h3{
+  margin: 20px 0;
 }
 
+.register .register-detail{
+  margin-bottom: 30px;
+}
+
+.register .register-btn a{
+  color: #000;
+}
+
+
 input[type=text], 
-input[type=password],
-input[type=email],
-input[type=number] {
+input[type=password]{
   width: 100%;
   padding: 12px 20px;
   margin: 8px 0;
@@ -28,7 +35,7 @@ input[type=number] {
   box-sizing: border-box;
 }
 
-.register_btn button,
+.register .register-btn a,
 .login button {
   background-color: var(--main-color);
   color: var(--bg-color);
@@ -40,21 +47,7 @@ input[type=number] {
   border-radius: 0.5rem;
 }
 
-.register_btn button{
-  width: 100%;
-  margin-left: 10px;
-  margin-right: 10px;
-}
-
-.register_btn .gl-ic{
-  background-color: var(--star);
-}
-
-.register_btn button i{
-  font-size: 20px;
-}
-
-.register_btn button:hover,
+.register .register-btn a:hover,
 .login button:hover {
   opacity: 0.8;
 }

@@ -291,6 +291,25 @@
     border: 2px solid var(--green-color);
     outline: none;
 }
+
+
+.cable-choose button:hover{
+    color: var(--bg-color);
+    transition: background 0.5s;
+    transition: 0.2s all linear;
+}
+
+.cable-choose .btn_blue:hover{
+    background-color: var(--main-color);
+}
+
+.cable-choose .btn_brow:hover{
+    background-color: brown;
+}
+
+.cable-choose .btn_red:hover{
+    background-color: var(--discount);
+}
    
 .cable-config {
     border-bottom: 1px solid #E1E8EE;
@@ -332,7 +351,27 @@
     color: #43474D;
     margin-right: 20px;
 }
-   
+
+.product-price button{
+    border: 1px solid #43474D;
+}
+
+/* Modal */
+.modal_preOrder{
+    position: fixed;
+    top: 50;
+    left: 50;
+    display: none;
+    width: 80%;
+    height: 400px;
+    margin: 0 auto;
+    z-index: 1000;
+    color: #000;
+}
+
+.modal_preOrder .contentBox{
+}
+
 .cart-btn {
     display: inline-block;
     border-radius: 0.5rem;
