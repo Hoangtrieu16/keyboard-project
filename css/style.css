@@ -570,6 +570,13 @@ button.subnavbtn{
     margin-right: auto;
 }
 
+/* .categories h2{
+    color: var(--main-color);
+    font-size: 32px;
+    text-align: center;
+    text-transform: uppercase;
+} */
+
 .categories-container{
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(180px, auto));
@@ -584,6 +591,7 @@ button.subnavbtn{
     align-items: center;
     padding: 10px;
     border-radius: 0.5rem;
+    gap: 5px;
 }
 
 .categories-container .box img{
@@ -664,7 +672,7 @@ button.subnavbtn{
 
 .lightbox h2{
     color: var(--main-color);
-    font-size: 36px;
+    font-size: 32px;
     text-align: center;
     margin: 32px;
     text-transform: uppercase;
@@ -933,7 +941,7 @@ img.hover-shadow {
 
 .coming-soon h2{
     color: var(--main-color);
-    font-size: 48px;
+    font-size: 32px;
     text-align: center;
     text-transform: uppercase;
 }
@@ -972,7 +980,7 @@ img.hover-shadow {
 .customers h2{
     text-transform: uppercase;
     text-align:center;
-    font-size: 1.6rem;
+    font-size: 32px;
     font-weight: 600;
     color: var(--main-color);
 }
@@ -1060,7 +1068,7 @@ img.hover-shadow {
 
 .subscribe h2{
     color: var(--main-color);
-    font-size: 36px;
+    font-size: 32px;
     text-align: center;
     text-transform: uppercase;
 }
