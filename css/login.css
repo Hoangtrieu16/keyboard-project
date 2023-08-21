@@ -80,8 +80,15 @@ span.psw {
   /* padding-top: 16px; */
 }
 
+<<<<<<< Updated upstream
 span.psw a:hover{
   color: red;
+=======
+@media screen and (max-width: 420px) {
+  .customers_form .action_form{
+    flex-direction: column;
+  }
+>>>>>>> Stashed changes
 }
 
 /* Change styles for span and cancel button on extra small screens */
