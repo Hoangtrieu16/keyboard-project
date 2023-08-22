@@ -359,17 +359,59 @@
 /* Modal */
 .modal_preOrder{
     position: fixed;
-    top: 50;
-    left: 50;
+    top: 20%;
+    left: 0;
     display: none;
-    width: 80%;
-    height: 400px;
-    margin: 0 auto;
-    z-index: 1000;
-    color: #000;
+    width: 100%;
+    height: 100%;
+    z-index: 10000000;
 }
 
-.modal_preOrder .contentBox{
+.modal_preOrder .contentModal{
+    width: 60%;
+    margin: 0 auto;
+    background-color: #fff;
+    box-shadow: 0 0 10px #000;
+    padding: 20px 30px;
+}
+
+.contentModal .modal_middle{
+    border-top: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+    padding: 20px 0;
+    margin: 20px 0;
+}
+
+.contentModal .modal_middle input[type=text], 
+.contentModal .modal_middle input[type=password]{
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+.contentModal .modal_footer{
+    display: flex;
+}
+
+.contentModal .modal_footer button{
+    background-color: var(--main-color);
+    color: var(--bg-color);
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 15%;
+    border-radius: 0.5rem;
+    margin-right: 10px;
+}
+
+
+.contentModal .modal_footer button:hover{
+  opacity: 0.8;
+    transition: 0.5s all linear;
 }
 
 .cart-btn {
