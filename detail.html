@@ -127,17 +127,10 @@
         <!-- <a href="" class="btn right">Learn More</a> -->
     </section>
 
-<<<<<<< Su
     <section class="banner" id="banner">
         <h2>Mount</h2>
         <div class="banner-container"></div>
     </section>
-=======
-    <!-- <section class="banner" id="banner">
-      <h2>Mount</h2>
-      <div class="banner-container"></div>
-    </section> -->
->>>>>>> main
 
 
     <!--Categories-->
@@ -212,6 +205,8 @@
                 <!-- <i><a href="" class="btn ">Learn More</a></i> -->
             </div>
     </section>
+
+
 
     <!--Light Box-->
     <section class="tag lightbox" id="lightbox">
@@ -359,38 +354,36 @@
             <!-- Product button -->
             <div class="product-price">
                 <!-- <a href="#" class="cart-btn left">Learn more</a> -->
-                <button class="btn btn-primary" id="popup_preOrder">Pre-order</button>
-
+                <input type="checkbox" id="active">
+                <label for="active" class="btn btn-primary" id="popup_preOrder">Pre-order</label>
+                <!-- Modal -->
+                <div id="modal_preOrder" class="wrapper">
+                    <div class="contentModal">
+                        <div class="modal_header">
+                            <h2>Thông tin bạn cần điền</h2>
+                        </div>
+                        <div class="modal_middle">
+                            <form method="post">
+                                <label for="uname"><b>Username</b></label>
+                                <input type="text" placeholder="Enter Username" name="uname" required>
+                                
+                                <label for="psw"><b>Password</b></label>
+                                <input type="password" placeholder="Enter Password" name="psw" required>
+                                
+                            </form>
+                        </div>
+                        <div class="modal_footer">
+                            <label for="active" class="close_modal">Đóng</label>
+                            <button>Gửi</button>
+                        </div>
+                            
+                    </div>
+                </div>
             </div>
-            <div class="elementToFadeInAndOut">
-                qq
-            </div>
-
         </div>
     </section>
-    <!-- Modal -->
-    <div id="modal_preOrder" class="modal_preOrder">
-        <div class="contentModal">
-            <div class="modal_header">
-                <h2>Thông tin bạn cần điền</h2>
-            </div>
-            <div class="modal_middle">
-                <form method="post">
-                    <label for="uname"><b>Username</b></label>
-                    <input type="text" placeholder="Enter Username" name="uname" required>
-                
-                    <label for="psw"><b>Password</b></label>
-                    <input type="password" placeholder="Enter Password" name="psw" required>
-                
-                </form>
-            </div>
-            <div class="modal_footer">
-                <button class="close_modal">Đóng</button>
-                <button>Gửi</button>
-            </div>
-            
-        </div>
-    </div>
+
+    
     <!-- Button trigger modal -->
 
 
