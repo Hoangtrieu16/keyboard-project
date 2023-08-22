@@ -288,7 +288,7 @@
 .cable-choose button:hover,
 .cable-choose button:active,
 .cable-choose button:focus {
-    border: 2px solid var(--main-color);
+    border: none;
     outline: none;
 }
 
@@ -356,18 +356,32 @@
     border: 1px solid #43474D;
 }
 
-/* Modal */
-.modal_preOrder{
-    position: fixed;
-    top: 20%;
-    left: 0;
-    display: none;
-    width: 100%;
-    height: 100%;
-    z-index: 10000000;
+/* Check modal */
+
+.product-price input[type="checkbox"]{
+  display: none;
 }
 
-.modal_preOrder .contentModal{
+/* Modal */
+label{
+    cursor: pointer;
+}
+.wrapper{
+    position: fixed;
+    top: -100%;
+    width: 100%;
+    left: 0;
+    height: 100%;
+    z-index: 100000;
+    transition: all 0.6s ease-in-out;
+
+}
+
+#active:checked ~ .wrapper{
+  top: 20%;
+}
+
+.wrapper .contentModal{
     width: 60%;
     margin: 0 auto;
     background-color: #fff;
@@ -396,21 +410,24 @@
     display: flex;
 }
 
+.contentModal .modal_footer .close_modal,
 .contentModal .modal_footer button{
     background-color: var(--main-color);
     color: var(--bg-color);
-    padding: 14px 20px;
+    padding: 10px 16px;
     margin: 8px 0;
     border: none;
     cursor: pointer;
     width: 15%;
     border-radius: 0.5rem;
     margin-right: 10px;
+    text-align: center;
+    font-size: 16px;
 }
 
 
 .contentModal .modal_footer button:hover{
-  opacity: 0.8;
+    opacity: 0.8;
     transition: 0.5s all linear;
 }
 
